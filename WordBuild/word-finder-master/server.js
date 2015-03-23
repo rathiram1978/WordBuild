@@ -24,3 +24,4 @@ app.post('/search', function (req, res) {
 
 app.listen(process.env.PORT || config.port);
 console.log("Listening on port: " + (process.env.PORT || config.port));
+console.log("Starting test");
